@@ -7,8 +7,8 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          'css/material-foundation.css': 'scss/material-foundation.scss',
-          'css/demo.css': 'scss/demo.scss'
+          'assets/stylesheets/material-foundation.css': 'assets/stylesheets/material-foundation.scss',
+          'assets/stylesheets/demo.css': 'assets/stylesheets/demo.scss'
         }
       }
     },
@@ -19,13 +19,13 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-          'js/material-foundation.js': [
+          'assets/javascripts/material-foundation.js': [
             'bower_components/what-input/what-input.js',
             'bower_components/jquery/dist/jquery.js',
             'bower_components/foundation-sites/dist/foundation.js',
-            'js/src/ripple.js',
-            'js/src/switches.js',
-            'js/src/material-foundation.js'
+            'assets/javascripts/src/ripple.js',
+            'assets/javascripts/src/switches.js',
+            'assets/javascripts/src/material-foundation.js'
           ]
         }
       }

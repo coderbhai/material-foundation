@@ -37,12 +37,12 @@ to compile files manually
 
 ## Directory Structure
 
-scss/
+assets/stylesheets/
 
   * `material-foundation.scss`: Main CSS file
   * `demo.scss`: CSS for the preview purposes, don't mind it
-  * `scss/_global.scss`: global settings
-  * `scss/_foundation.scss`: the rest of original Foundation's code is imported here
+  * `assets/stylesheets/_global.scss`: global settings
+  * `assets/stylesheets/_foundation.scss`: the rest of original Foundation's code is imported here
 
 ## How to use Material Foundation
 
