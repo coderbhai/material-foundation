@@ -1,8 +1,8 @@
 {
   "name": "material-foundation",
   "main": [
-    "assets/stylesheets/material-foundation.scss",
-    "assets/javascripts/material-foundation.js"
+    "vendor/assets/stylesheets/material-foundation.scss",
+    "vendor/assets/javascripts/material-foundation.js"
   ],
   "ignore": [
   ],
